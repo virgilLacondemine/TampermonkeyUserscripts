@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WeebCentralLayoutModifier
 // @namespace    https://github.com/virgilLacondemine/TampermonkeyUserscripts
-// @version      1.0.5
+// @version      1.0.6
 // @description  Modify default site layout
 // @author       Apeple
 // @updateURL    https://raw.githubusercontent.com/virgilLacondemine/TampermonkeyUserscripts/main/WeebCentralLayoutModifier.js
@@ -76,7 +76,7 @@ function readerSubscriptionBtn()
 
     const susbcriptionBtn = getReaderBtn({
         url: 'https://weebcentral.com/users/me/subscriptions',
-        text: "Subscription",
+        text: "Subscriptions",
         icon: subscriptionIcon,
     });
 
