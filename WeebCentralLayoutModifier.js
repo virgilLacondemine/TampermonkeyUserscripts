@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WeebCentralLayoutModifier
 // @namespace    http://tampermonkey.net/
-// @version      2025-09-23
+// @version      v1.1
 // @description  Modify default site layout. Place subscription section at the top before the hot update section.
 // @author       Apeple
 // @match        https://weebcentral.com/
