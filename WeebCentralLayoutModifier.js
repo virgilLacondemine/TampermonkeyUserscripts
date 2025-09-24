@@ -2,7 +2,7 @@
 // @name         WeebCentralLayoutModifier
 // @namespace    http://tampermonkey.net/
 // @version      2025-09-23
-// @description  try to take over the world!
+// @description  Modify default site layout. Place subscription section at the top before the hot update section.
 // @author       Apeple
 // @match        https://weebcentral.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=weebcentral.com
