@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WeebCentralLayoutModifier
 // @namespace    https://github.com/virgilLacondemine/TampermonkeyUserscripts
-// @version      1.0.3
+// @version      1.0.4
 // @description  Modify default site layout
 // @author       Apeple
 // @updateURL    https://raw.githubusercontent.com/virgilLacondemine/TampermonkeyUserscripts/main/WeebCentralLayoutModifier.js
@@ -52,7 +52,7 @@ function readerHomeBtn()
     const homeBtn = document.createElement('a');
     homeBtn.setAttribute('href', 'https://weebcentral.com/');
     homeBtn.setAttribute('class', 'w-full btn btn-secondary');
-    homeBtn.setAttribute('style', 'margin-bottom: 4px;');
+    homeBtn.setAttribute('style', 'margin-bottom: 16px;');
     homeBtn.innerHTML = "Home";
 
     console.log(homeBtn);
